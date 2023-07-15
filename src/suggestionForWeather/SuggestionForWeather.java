@@ -11,9 +11,9 @@ public class SuggestionForWeather {
         
         if (heat<5){
             System.out.println("Kayak yapabilirsiniz.");
-        } else if (5<heat && heat<15) {
+        } else if (5<=heat && heat<15) {
             System.out.println("Sinemaya gidebilirsiniz");
-        } else if (15<heat && heat<25) {
+        } else if (15<=heat && heat<25) {
             System.out.println("Pikniğe gidebilirsiniz");
         }else {
             System.out.println("Yüzmeye gidebilirsiniz");
